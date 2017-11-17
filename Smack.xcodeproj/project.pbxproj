@@ -15,6 +15,8 @@
 		B38364F11FBD254F00BF577B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38364F01FBD254F00BF577B /* ChatVC.swift */; };
 		B38364F31FBD255F00BF577B /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38364F21FBD255F00BF577B /* ChannelVC.swift */; };
 		B38364F51FBE75B600BF577B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38364F41FBE75B600BF577B /* GradientView.swift */; };
+		B38364F81FBEF7D600BF577B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38364F71FBEF7D600BF577B /* Constants.swift */; };
+		B38364FA1FBEFC1900BF577B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38364F91FBEFC1900BF577B /* LoginVC.swift */; };
 		E5EE6147587456DD03DE2B8B /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC68498089FCB484AD14878 /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,8 @@
 		B38364F01FBD254F00BF577B /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		B38364F21FBD255F00BF577B /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		B38364F41FBE75B600BF577B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		B38364F71FBEF7D600BF577B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B38364F91FBEFC1900BF577B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		B38364D51FBBD00300BF577B /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				B38364F61FBEF7C200BF577B /* Utilities */,
 				B38364ED1FBD251400BF577B /* Model */,
 				B38364EE1FBD251B00BF577B /* View */,
 				B38364EF1FBD252100BF577B /* Controller */,
@@ -121,8 +126,17 @@
 			children = (
 				B38364F01FBD254F00BF577B /* ChatVC.swift */,
 				B38364F21FBD255F00BF577B /* ChannelVC.swift */,
+				B38364F91FBEFC1900BF577B /* LoginVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		B38364F61FBEF7C200BF577B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B38364F71FBEF7D600BF577B /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		E961183A70E853972AB0D543 /* Frameworks */ = {
@@ -259,9 +273,11 @@
 			files = (
 				B38364F31FBD255F00BF577B /* ChannelVC.swift in Sources */,
 				B38364F11FBD254F00BF577B /* ChatVC.swift in Sources */,
+				B38364FA1FBEFC1900BF577B /* LoginVC.swift in Sources */,
 				B38364F51FBE75B600BF577B /* GradientView.swift in Sources */,
 				B38364D71FBBD00300BF577B /* AppDelegate.swift in Sources */,
 				B38364EC1FBBD6C100BF577B /* SWRevealViewController.m in Sources */,
+				B38364F81FBEF7D600BF577B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
