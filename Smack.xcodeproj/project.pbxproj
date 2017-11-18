@@ -17,6 +17,7 @@
 		B38364F51FBE75B600BF577B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38364F41FBE75B600BF577B /* GradientView.swift */; };
 		B38364F81FBEF7D600BF577B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38364F71FBEF7D600BF577B /* Constants.swift */; };
 		B38364FA1FBEFC1900BF577B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38364F91FBEFC1900BF577B /* LoginVC.swift */; };
+		B38364FC1FBFCBA700BF577B /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38364FB1FBFCBA700BF577B /* CreateAccountVC.swift */; };
 		E5EE6147587456DD03DE2B8B /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC68498089FCB484AD14878 /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		B38364F41FBE75B600BF577B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		B38364F71FBEF7D600BF577B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B38364F91FBEFC1900BF577B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B38364FB1FBFCBA700BF577B /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				B38364F01FBD254F00BF577B /* ChatVC.swift */,
 				B38364F21FBD255F00BF577B /* ChannelVC.swift */,
 				B38364F91FBEFC1900BF577B /* LoginVC.swift */,
+				B38364FB1FBFCBA700BF577B /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			files = (
 				B38364F31FBD255F00BF577B /* ChannelVC.swift in Sources */,
 				B38364F11FBD254F00BF577B /* ChatVC.swift in Sources */,
+				B38364FC1FBFCBA700BF577B /* CreateAccountVC.swift in Sources */,
 				B38364FA1FBEFC1900BF577B /* LoginVC.swift in Sources */,
 				B38364F51FBE75B600BF577B /* GradientView.swift in Sources */,
 				B38364D71FBBD00300BF577B /* AppDelegate.swift in Sources */,
